@@ -39,19 +39,19 @@ Put the tracking datasets in ./data. It should look like:
    ```
 
 ## Path Setting
-%运行下列命令以设置项目路径
+Run the following command to set the project path #运行下列命令以设置项目路径
 ```
 python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
 ```
-%运行上述命令后，可以前往以下两个文件中修改相关路径设置（例如预训练网络和数据集）
+#运行上述命令后，可以前往以下两个文件中修改相关路径设置（例如预训练网络和数据集）
 After running the above command, you can go to the following two files to modify the relevant path settings (such as the paths of the pre trained network and dataset)
 ```
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-### The first stage of training %第一阶段训练
-%进行训练前，可以将'experience/artrack/*.yaml'中的 *BACKBONE_PTH* 指定为提前准备好的预训练权重文件夹，并修改 *PRETRAIN_FILE*来指定预训练类型
+### The first stage of training #第一阶段训练
+#进行训练前，可以将'experience/artrack/*.yaml'中的 *BACKBONE_PTH* 指定为提前准备好的预训练权重文件夹，并修改 *PRETRAIN_FILE*来指定预训练类型
 Before training, we can specify the *BACKBONE_PTH* in 'experience/artrack/*.yaml' as the pre training weight folder prepared in advance, and modify *PRETRAIN_FILE* to specify the pre training type
 
 %多卡训练，以两卡训练为例
