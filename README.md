@@ -2,6 +2,7 @@
 Sequence-Based Object Tracker with Denoising and Historical Information
 
 ## Installation environment
+Please unzip a.rar first, all the code is in this compressed file.
 ```
 conda create -n artrack_m
 conda activate artrack_m
