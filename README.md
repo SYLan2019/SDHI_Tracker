@@ -1,7 +1,7 @@
 # SDHI_Tracker
 Sequence-Based Object Tracker with Denoising and Historical Information
 
-# Please unzip a.rar first, all the code is in this compressed file.
+# Please unzip ARTrack-main.rar first, all the code is in this compressed file.
 
 ## Installation environment
 
